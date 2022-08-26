@@ -1,4 +1,4 @@
-### Hi there 👋! I'm Lucas!
+### Hi there! I'm Lucas! 👋
 
 - 🔭 Currently working as full stack developer
 - 🌱 Studying Java and Typescript
