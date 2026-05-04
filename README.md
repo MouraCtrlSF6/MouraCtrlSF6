@@ -43,12 +43,6 @@
      width="40" 
      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
      >
-      <img 
-       align="center" 
-       alt="Lucas-Vuejs" 
-       height="30" width="40" 
-       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/reactjs/reactjs-original.svg"
-  />
   <img 
      align="center" 
      alt="Lucas-Angular" 
