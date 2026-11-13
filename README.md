@@ -8,52 +8,6 @@ I'm a full-stack software engineer who focus on building scalable, high-performa
 
 ![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=MouraCtrlSF6&layout=compact&langs_count=4&theme=dracula&card_width=525 "Most Used Languages")
 
-## ✨ Main Projects
-
-### <svg id="orbita-matematica" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="30" height="30"><ellipse cx="32" cy="32" rx="28" ry="10" fill="none" stroke="#b0a1ff" stroke-width="4" transform="rotate(-32 32 32)" /><circle cx="32" cy="32" r="15" fill="#9b87f5" /><circle cx="25" cy="27" r="4" fill="#d9d0ff" /></svg> [Órbita Matemática](https://github.com/MouraCtrlSF6/Orbita-Matematica)
-
-An algebra game for **8th graders** that combines space exploration with classroom activities. Students pilot a spaceship and complete missions, while teachers organize questions and track the class’s progress.
-
-#### 💡 Why it exists
-
-The game connects algebra to practical applications through short challenges, visuals, and learning supports that let students work at their own pace. It focuses on **skill EF08MA06 of Brazil’s National Common Curricular Base (BNCC)**, with activities subject to review by educators.
-
-#### 🪐 What it offers
-
-- **Space exploration** across three sectors, with radar and a default catalog of 52 missions that unlock progressively.
-- **A variety of challenges**, including multiple-choice questions, numeric and written responses, expression building, and guided problem creation.
-- **A teacher dashboard** for managing classrooms, tracking student responses and use of learning supports in real time, and removing students.
-- **Classroom-specific questions** that teachers can add, delete, and reorder within the same sector by dragging or using the keyboard, without changing the default catalog.
-- **Accessibility features**, including keyboard and touch controls, a destination list, larger text, reduced motion, hints, visual aids, and optional read-aloud.
-- **Progress saved per classroom**, with the option to resume in the same tab and a discovery journal. Students can play without a timer, losing lives, or penalties for using learning supports.
-
-Use the **arrow keys or WASD** to fly and press **Enter** to enter a nearby destination. On touchscreens, use the directional buttons. Press **M** to toggle the spaceship’s sound. The game loads the question catalog when you join. To see changes made by the teacher, leave and rejoin the classroom.
-
-#### 🛠️ Technologies
-
-The project uses React and TypeScript to build the interface and implement the game rules. Vite powers the development environment and generates the static files published on GitHub Pages. React Router manages navigation between the student and teacher areas. Tailwind CSS and Radix UI provide styling and accessible controls. Firebase handles user authentication and syncs classroom progress in real time. App Check verifies that requests come from the app, and Analytics records usage events. React PDF generates reports in the browser, while Vitest and Playwright test the game rules and application workflows.
-
-### <svg id="wealthy" width="30" height="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 104" width="104" height="104" role="img" aria-labelledby="title"><defs><linearGradient id="tile" x1="12" y1="12" x2="92" y2="92" gradientUnits="userSpaceOnUse"><stop stop-color="#193E35" /><stop offset="1" stop-color="#0C2721" /></linearGradient><linearGradient id="mark" x1="26" y1="76" x2="77" y2="29" gradientUnits="userSpaceOnUse"><stop stop-color="#6CE8B4" /><stop offset="1" stop-color="#D4FF98" /></linearGradient></defs><rect x="10" y="10" width="84" height="84" rx="24" fill="url(#tile)" stroke="#4B967B" stroke-width="1.25" /><path d="M26 40l10 28 13-19 11 19 17-35m-12 3 12-3 3 12" fill="none" stroke="url(#mark)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" /></svg> [Wealthy](https://github.com/MouraCtrlSF6/Wealthy)
-
-Wealthy is a personal finance plataform, currently **in-development** built with .NET. It provides account registration, email confirmation, and sign-in, and lays the groundwork for organizing income and expenses.
-
-#### 💡 Why it exists
-
-Wealthy aims to help people understand where their money goes by organizing income and expenses into categories. The API is in development, with the account flow in place and transaction management still to come.
-
-#### 💰 What it offers
-
-- Account registration through Amazon Cognito, with a corresponding user record saved in PostgreSQL.
-- Email confirmation using a code from Cognito. The API also updates the confirmation status in PostgreSQL.
-- Sign-in with an email address and password. Cognito issues the session tokens.
-- A category endpoint that returns the submitted category with a generated ID. Database persistence is pending.
-- Interactive API documentation through Swagger UI in the development environment.
-  To try the account flow in Swagger UI, register a test account, enter the confirmation code sent to your email, and sign in. Registration creates an account in the configured Cognito user pool.
-
-#### 🛠️ Technologies
-
-The API runs on .NET 10 and ASP.NET Core. MediatR 14.2.0 dispatches requests to use-case handlers. EF Core 10.0.14 and the Npgsql provider 10.0.3 connect the API to PostgreSQL. Amazon Cognito, accessed through the AWS SDK 4.0.106.6, handles account registration, confirmation, and sign-in. ASP.NET Core OpenAPI 10.0.13 and Swagger UI 10.3.1 provide API documentation.
-
 ## 🧑‍💻 Technologies:
 
 ### Frontend Technologies & Frameworks:
