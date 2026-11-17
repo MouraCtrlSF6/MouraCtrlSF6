@@ -1,6 +1,7 @@
 # Hi there! I'm Lucas! 👋
 
 I'm a full-stack software engineer who focus on building scalable, high-performance web applications.
+Here you’ll find the technologies I work with, my GitHub stats, and ways to get in touch.
 
 ## 📈 Current Stats & Most Used Languages:
 
